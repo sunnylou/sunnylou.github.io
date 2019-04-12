@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://sunnylou.github.io/"/>
-  <updated>2019-04-12T07:03:56.379Z</updated>
+  <updated>2019-04-12T08:57:28.491Z</updated>
   <id>https://sunnylou.github.io/</id>
   
   <author>
@@ -17,11 +17,31 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>聊聊系统稳定性的几个9</title>
+    <link href="https://sunnylou.github.io/2019/04/12/%E8%81%8A%E8%81%8A%E7%B3%BB%E7%BB%9F%E7%A8%B3%E5%AE%9A%E6%80%A7%E7%9A%84%E5%87%A0%E4%B8%AA9/"/>
+    <id>https://sunnylou.github.io/2019/04/12/聊聊系统稳定性的几个9/</id>
+    <published>2019-04-12T08:51:09.000Z</published>
+    <updated>2019-04-12T08:57:28.491Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;img src=&quot;https://upload-images.jianshu.io/upload_images/1099569-af0d4db98a42b7ac.jpeg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1000/format/webp&quot; alt=&quot;封面&quot;&gt;&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="技术" scheme="https://sunnylou.github.io/tags/%E6%8A%80%E6%9C%AF/"/>
+    
+      <category term="文档" scheme="https://sunnylou.github.io/tags/%E6%96%87%E6%A1%A3/"/>
+    
+  </entry>
+  
+  <entry>
     <title>http 1.1  短连接双方均可主动关闭</title>
     <link href="https://sunnylou.github.io/2019/04/12/http-1-1-%E7%9F%AD%E8%BF%9E%E6%8E%A5%E5%8F%8C%E6%96%B9%E5%9D%87%E5%8F%AF%E4%B8%BB%E5%8A%A8%E5%85%B3%E9%97%AD/"/>
     <id>https://sunnylou.github.io/2019/04/12/http-1-1-短连接双方均可主动关闭/</id>
     <published>2019-04-12T06:40:07.000Z</published>
-    <updated>2019-04-12T07:03:56.379Z</updated>
+    <updated>2019-04-12T07:04:21.773Z</updated>
     
     <summary type="html">
     
@@ -106,9 +126,9 @@
       <category term="文档" scheme="https://sunnylou.github.io/categories/%E6%96%87%E6%A1%A3/"/>
     
     
-      <category term="文档" scheme="https://sunnylou.github.io/tags/%E6%96%87%E6%A1%A3/"/>
-    
       <category term="技术" scheme="https://sunnylou.github.io/tags/%E6%8A%80%E6%9C%AF/"/>
+    
+      <category term="文档" scheme="https://sunnylou.github.io/tags/%E6%96%87%E6%A1%A3/"/>
     
   </entry>
   
