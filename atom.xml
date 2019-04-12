@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://sunnylou.github.io/"/>
-  <updated>2019-04-12T01:10:18.619Z</updated>
+  <updated>2019-04-12T06:36:08.874Z</updated>
   <id>https://sunnylou.github.io/</id>
   
   <author>
@@ -15,6 +15,26 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>聊聊QPS/TPS/并发量/系统吞吐量的概念</title>
+    <link href="https://sunnylou.github.io/2019/04/12/%E8%81%8A%E8%81%8AQPS-TPS-%E5%B9%B6%E5%8F%91%E9%87%8F-%E7%B3%BB%E7%BB%9F%E5%90%9E%E5%90%90%E9%87%8F%E7%9A%84%E6%A6%82%E5%BF%B5/"/>
+    <id>https://sunnylou.github.io/2019/04/12/聊聊QPS-TPS-并发量-系统吞吐量的概念/</id>
+    <published>2019-04-12T06:34:34.000Z</published>
+    <updated>2019-04-12T06:36:08.874Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;img src=&quot;https://upload-images.jianshu.io/upload_images/1099569-af0d4db98a42b7ac.jpeg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1000/format/webp&quot; alt=&quot;封面&quot;&gt;&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="并发" scheme="https://sunnylou.github.io/tags/%E5%B9%B6%E5%8F%91/"/>
+    
+      <category term="吞吐" scheme="https://sunnylou.github.io/tags/%E5%90%9E%E5%90%90/"/>
+    
+  </entry>
   
   <entry>
     <title>Work for yourself</title>

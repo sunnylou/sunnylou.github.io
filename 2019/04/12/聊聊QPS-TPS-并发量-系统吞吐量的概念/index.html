@@ -89,7 +89,7 @@
 
 
 
-  <meta name="keywords" content="Hexo, NexT">
+  <meta name="keywords" content="并发,吞吐,">
 
 
 
@@ -102,18 +102,15 @@
 
 
 
-<meta name="description" content="Madness SunnyLou">
-<meta name="keywords" content="SunnyLou Blog">
-<meta property="og:type" content="website">
-<meta property="og:title" content="标签">
-<meta property="og:url" content="https://sunnylou.github.io/tags/index.html">
+<meta name="keywords" content="并发,吞吐">
+<meta property="og:type" content="article">
+<meta property="og:title" content="聊聊QPS&#x2F;TPS&#x2F;并发量&#x2F;系统吞吐量的概念">
+<meta property="og:url" content="https://sunnylou.github.io/2019/04/12/聊聊QPS-TPS-并发量-系统吞吐量的概念/index.html">
 <meta property="og:site_name" content="疯子">
-<meta property="og:description" content="Madness SunnyLou">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:updated_time" content="2019-04-11T07:13:28.235Z">
+<meta property="og:updated_time" content="2019-04-12T06:36:08.874Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="标签">
-<meta name="twitter:description" content="Madness SunnyLou">
+<meta name="twitter:title" content="聊聊QPS&#x2F;TPS&#x2F;并发量&#x2F;系统吞吐量的概念">
 
 
 
@@ -143,13 +140,13 @@
 
 
 
-  <link rel="canonical" href="https://sunnylou.github.io/tags/">
+  <link rel="canonical" href="https://sunnylou.github.io/2019/04/12/聊聊QPS-TPS-并发量-系统吞吐量的概念/">
 
 
 
 
 
-  <title>标签 | 疯子</title>
+  <title>聊聊QPS/TPS/并发量/系统吞吐量的概念 | 疯子</title>
   
 
 
@@ -329,40 +326,227 @@
 
   <div id="posts" class="posts-expand">
     
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="https://sunnylou.github.io/2019/04/12/聊聊QPS-TPS-并发量-系统吞吐量的概念/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="LouMengxuan">
+      <meta itemprop="description" content>
+      <meta itemprop="image" content="/images/loumx.png">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="疯子">
+    </span>
+
     
-    
-    <div class="post-block page">
       <header class="post-header">
 
-	<h1 class="post-title" itemprop="name headline">标签</h1>
-
-
-
-</header>
-
-      
-      
-      
-      <div class="post-body">
         
         
-          <div class="tag-cloud">
-            <div class="tag-cloud-title">
-                目前共计 5 个标签
+          <h1 class="post-title" itemprop="name headline">聊聊QPS/TPS/并发量/系统吞吐量的概念</h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2019-04-12T14:34:34+08:00">
+                2019-04-12
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+
+          
+            
+              <span class="post-comments-count">
+                <span class="post-meta-divider">|</span>
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-comment-o"></i>
+                </span>
+                <a href="/2019/04/12/聊聊QPS-TPS-并发量-系统吞吐量的概念/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count valine-comment-count" data-xid="/2019/04/12/聊聊QPS-TPS-并发量-系统吞吐量的概念/" itemprop="commentCount"></span>
+                </a>
+              </span>
+            
+          
+
+          
+          
+
+          
+            <span class="post-meta-divider">|</span>
+            <span class="page-pv"><i class="fa fa-file-o"></i>
+            <span class="busuanzi-value" id="busuanzi_value_page_pv"></span>次
+            </span>
+          
+
+          
+            <div class="post-wordcount">
+              
+                
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-file-word-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">字数统计&#58;</span>
+                
+                <span title="字数统计">
+                  363
+                </span>
+              
+
+              
+                <span class="post-meta-divider">|</span>
+              
+
+              
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-clock-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">阅读时长 &asymp;</span>
+                
+                <span title="阅读时长">
+                  1
+                </span>
+              
             </div>
-            <div class="tag-cloud-tags">
-                <a href="/tags/吞吐/" style="font-size: 12px; color: #ccc">吞吐</a> <a href="/tags/并发/" style="font-size: 12px; color: #ccc">并发</a> <a href="/tags/感悟/" style="font-size: 12px; color: #ccc">感悟</a> <a href="/tags/技术/" style="font-size: 12px; color: #ccc">技术</a> <a href="/tags/文档/" style="font-size: 12px; color: #ccc">文档</a>
-            </div>
-          </div>
-        
-      </div>
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
       
       
+
+      
+        <p>&#160; &#160; &#160; &#160;我们在日常工作中经常会听到QPS/TPS这些名词，也会经常被别人问起说你的系统吞吐量有多大。这个问题从业务上来讲，可以理解为应用系统每秒钟最大能接受的用户访问量。或者每秒钟最大能处理的请求数；</p>
+<h3 id="QPS"><a href="#QPS" class="headerlink" title="QPS:"></a>QPS:</h3><p>每秒钟处理完请求的次数；注意这里是处理完。具体是指发出请求到服务器处理完成功返回结果。可以理解在server中有个counter，每处理一个请求加1，1秒后counter=QPS。</p>
+<p>###TPS：<br>每秒钟处理完的事务次数，一般TPS是对整个系统来讲的。一个应用系统1s能完成多少事务处理，一个事务在分布式处理中，可能会对应多个请求，对于衡量单个接口服务的处理能力，用QPS比较多。</p>
+<p>###并发量：<br>系统能同时处理的请求数</p>
+<p>###RT：<br>响应时间，处理一次请求所需要的平均处理时间</p>
+<p>###计算关系：</p>
+<p>QPS = 并发量 / 平均响应时间<br>并发量 = QPS * 平均响应时间</p>
+<p><strong>本文作者</strong>：娄梦轩<br><strong>本文地址</strong>： <a href="https://sunnylou.github.io/2019/04/12/聊聊QPS-TPS-并发量-系统吞吐量的概念/">https://sunnylou.github.io/2019/04/12/聊聊QPS-TPS-并发量-系统吞吐量的概念/</a> <br><strong>版权声明</strong>：本博客所有文章除特别声明外，均采用 <a href="http://creativecommons.org/licenses/by-nc-sa/3.0/cn/" target="_blank" rel="noopener">CC BY-NC-SA 3.0 CN</a> 许可协议。转载请注明出处！</p>
       
     </div>
     
     
     
+
+    
+
+    
+      <div>
+        <div style="padding: 10px 0; margin: 20px auto; width: 90%; text-align: center;">
+  <div>您的支持将鼓励我继续创作</div>
+  <button id="rewardButton" disable="enable" onclick="var qr = document.getElementById('QR'); if (qr.style.display === 'none') {qr.style.display='block';} else {qr.style.display='none'}">
+    <span>打赏</span>
+  </button>
+  <div id="QR" style="display: none;">
+
+    
+      <div id="wechat" style="display: inline-block">
+        <img id="wechat_qr" src="/images/WeChatpay.jpg" alt="LouMengxuan 微信支付">
+        <p>微信支付</p>
+      </div>
+    
+
+    
+      <div id="alipay" style="display: inline-block">
+        <img id="alipay_qr" src="/images/Alipay.jpg" alt="LouMengxuan 支付宝">
+        <p>支付宝</p>
+      </div>
+    
+
+    
+
+  </div>
+</div>
+
+      </div>
+    
+
+    
+
+    <footer class="post-footer">
+      
+        <div class="post-tags">
+          
+            <a href="/tags/并发/" rel="tag"><i class="fa fa-tag"></i> 并发</a>
+          
+            <a href="/tags/吞吐/" rel="tag"><i class="fa fa-tag"></i> 吞吐</a>
+          
+        </div>
+      
+
+      
+      
+      
+
+      
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+              <a href="/2019/04/12/Work-for-yourself/" rel="next" title="Work for yourself">
+                <i class="fa fa-chevron-left"></i> Work for yourself
+              </a>
+            
+          </div>
+
+          <span class="post-nav-divider"></span>
+
+          <div class="post-nav-prev post-nav-item">
+            
+          </div>
+        </div>
+      
+
+      
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+
+    <div class="post-spread">
+      
+    </div>
   </div>
 
 
@@ -398,8 +582,17 @@
       
 
       
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap">
+            文章目录
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview-wrap">
+            站点概览
+          </li>
+        </ul>
+      
 
-      <section class="site-overview-wrap sidebar-panel sidebar-panel-active">
+      <section class="site-overview-wrap sidebar-panel">
         <div class="site-overview">
           <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
             
@@ -489,6 +682,22 @@
         </div>
       </section>
 
+      
+      <!--noindex-->
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+              
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#QPS"><span class="nav-number">1.</span> <span class="nav-text">QPS:</span></a></li></ol></div>
+            
+
+          </div>
+        </section>
+      <!--/noindex-->
       
 <div id="music163player">
 <iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width="330" height="86" src="//music.163.com/outchain/player?type=2&id=30870642&auto=1&height=66"></iframe>
