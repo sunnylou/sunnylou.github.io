@@ -108,7 +108,7 @@
 <meta property="og:url" content="https://sunnylou.github.io/2019/04/12/聊聊QPS-TPS-并发量-系统吞吐量的概念/index.html">
 <meta property="og:site_name" content="疯子">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:updated_time" content="2019-04-12T06:36:08.874Z">
+<meta property="og:updated_time" content="2019-04-12T06:39:21.577Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="聊聊QPS&#x2F;TPS&#x2F;并发量&#x2F;系统吞吐量的概念">
 
@@ -453,11 +453,10 @@
       
         <p>&#160; &#160; &#160; &#160;我们在日常工作中经常会听到QPS/TPS这些名词，也会经常被别人问起说你的系统吞吐量有多大。这个问题从业务上来讲，可以理解为应用系统每秒钟最大能接受的用户访问量。或者每秒钟最大能处理的请求数；</p>
 <h3 id="QPS"><a href="#QPS" class="headerlink" title="QPS:"></a>QPS:</h3><p>每秒钟处理完请求的次数；注意这里是处理完。具体是指发出请求到服务器处理完成功返回结果。可以理解在server中有个counter，每处理一个请求加1，1秒后counter=QPS。</p>
-<p>###TPS：<br>每秒钟处理完的事务次数，一般TPS是对整个系统来讲的。一个应用系统1s能完成多少事务处理，一个事务在分布式处理中，可能会对应多个请求，对于衡量单个接口服务的处理能力，用QPS比较多。</p>
-<p>###并发量：<br>系统能同时处理的请求数</p>
-<p>###RT：<br>响应时间，处理一次请求所需要的平均处理时间</p>
-<p>###计算关系：</p>
-<p>QPS = 并发量 / 平均响应时间<br>并发量 = QPS * 平均响应时间</p>
+<h3 id="TPS："><a href="#TPS：" class="headerlink" title="TPS："></a>TPS：</h3><p>每秒钟处理完的事务次数，一般TPS是对整个系统来讲的。一个应用系统1s能完成多少事务处理，一个事务在分布式处理中，可能会对应多个请求，对于衡量单个接口服务的处理能力，用QPS比较多。</p>
+<h3 id="并发量："><a href="#并发量：" class="headerlink" title="并发量："></a>并发量：</h3><p>系统能同时处理的请求数</p>
+<h3 id="RT："><a href="#RT：" class="headerlink" title="RT："></a>RT：</h3><p>响应时间，处理一次请求所需要的平均处理时间</p>
+<h3 id="计算关系："><a href="#计算关系：" class="headerlink" title="计算关系："></a>计算关系：</h3><p>QPS = 并发量 / 平均响应时间<br>并发量 = QPS * 平均响应时间</p>
 <p><strong>本文作者</strong>：娄梦轩<br><strong>本文地址</strong>： <a href="https://sunnylou.github.io/2019/04/12/聊聊QPS-TPS-并发量-系统吞吐量的概念/">https://sunnylou.github.io/2019/04/12/聊聊QPS-TPS-并发量-系统吞吐量的概念/</a> <br><strong>版权声明</strong>：本博客所有文章除特别声明外，均采用 <a href="http://creativecommons.org/licenses/by-nc-sa/3.0/cn/" target="_blank" rel="noopener">CC BY-NC-SA 3.0 CN</a> 许可协议。转载请注明出处！</p>
       
     </div>
@@ -692,7 +691,7 @@
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#QPS"><span class="nav-number">1.</span> <span class="nav-text">QPS:</span></a></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#QPS"><span class="nav-number">1.</span> <span class="nav-text">QPS:</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#TPS："><span class="nav-number">2.</span> <span class="nav-text">TPS：</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#并发量："><span class="nav-number">3.</span> <span class="nav-text">并发量：</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#RT："><span class="nav-number">4.</span> <span class="nav-text">RT：</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#计算关系："><span class="nav-number">5.</span> <span class="nav-text">计算关系：</span></a></li></ol></div>
             
 
           </div>
