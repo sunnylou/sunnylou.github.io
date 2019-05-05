@@ -3,6 +3,20 @@
 
 
     <url>
+        <loc>https://sunnylou.github.io/tags/%E6%96%87%E6%A1%A3/</loc>
+        <lastmod>2019-05-05T09:26:58.519Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://sunnylou.github.io/tags/%E6%8A%80%E6%9C%AF/</loc>
+        <lastmod>2019-05-05T09:26:58.519Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
         <loc>https://sunnylou.github.io/tags/%E5%90%9E%E5%90%90/</loc>
         <lastmod>2019-05-05T09:08:40.769Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -19,20 +33,6 @@
     <url>
         <loc>https://sunnylou.github.io/tags/http/</loc>
         <lastmod>2019-05-05T09:08:18.088Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://sunnylou.github.io/tags/%E6%96%87%E6%A1%A3/</loc>
-        <lastmod>2019-05-05T09:08:01.499Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://sunnylou.github.io/tags/%E6%8A%80%E6%9C%AF/</loc>
-        <lastmod>2019-05-05T09:08:01.499Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
